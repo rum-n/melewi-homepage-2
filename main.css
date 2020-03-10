@@ -1532,7 +1532,7 @@ body {
   background: #FF517B;
   background-image: linear-gradient(90deg, #FF517B 0%, #FF7023 100%);
   color: white;
-  width: 650px;
+  width: 600px;
   height: 300px;
   position: absolute;
   right: 50px;
@@ -1541,19 +1541,16 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
 }
 
 .uxBoxHeaderTitle {
   font-size: 2.1rem;
   font-weight: 900;
-
 }
 
 .uxBoxHeaderBig {
   font-size: 1.1rem;
   font-weight: 900;
-
 }
 
 .uxBoxHeaderSmall {
@@ -1586,7 +1583,7 @@ body {
   background: #A059FB;
   background-image: linear-gradient(90deg, #A059FB 0%, #5ED4FB 100%);
   color: white;
-  width: 650px;
+  width: 600px;
   height: 300px;
   position: absolute;
   right: 50px;
@@ -1595,5 +1592,52 @@ body {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: center;
+}
+
+.researchBoxHeader {
+  background: #2F2078;
+  background-image: linear-gradient(90deg, #2F2078 0%, #3B6DC0 100%);
+  color: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  padding: 40px 100px 40px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.auditOval {
+  margin-top: 1600px;
+  margin-right: -700px !important;
+}
+
+.webBoxheader {
+  background: #7038AF;
+  background-image: linear-gradient(90deg, #7038AF 0%, #35278A 100%);
+  color: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  padding: 40px 100px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.remoteBoxheader {
+  background: #2F2078;
+  background-image: linear-gradient(90deg, #2F2078 0%, #3C6DC1 100%);
+  color: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  padding: 40px 100px 40px 40px;
+  display: flex;
+  flex-direction: column;
 }
