@@ -56,7 +56,7 @@
   position: relative;
 }
 .w100 {
-  width: 100%;
+  width: 90%;
 }
 .safari .topClipper {
   overflow: auto;
@@ -109,7 +109,7 @@
 }
 @media (max-width: 600px) {
   .sectionAbout {
-    margin-top: -120px;
+    margin-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -665,12 +665,13 @@ button {
 }
 .sectionClients .clientImg {
   position: relative;
-  margin: 0 16px;
+  margin: 0 16px 100px;
   -webkit-flex: 1.1;
   -webkit-box-flex: 1.1;
   -ms-flex: 1.1;
   flex: 1.1;
 }
+
 .sectionClients .clientImg > img:not(:first-child) {
   position: absolute;
   left: 0;
@@ -1135,6 +1136,10 @@ body {
     color: white;
     margin-top: 40px;
   }
+  .headerInside .textTitleService {
+    color: #2D344F;
+    margin-top: 40px;
+  }
   .headerInside .textLight {
     font-size: 14px;
     color: #B0B5CD;
@@ -1155,9 +1160,9 @@ body {
     width: 200px;
   }
   .headerInside .headerInsideRight .imgDevice {
-    margin: -40px auto 0 auto;
+    margin: 0 auto;
     height: 500px;
-    max-width: 100%;
+    max-width: 80%;
   }
   .headerInside .headerInsideRight .bubbleTop {
     left: -80px;
@@ -1562,7 +1567,7 @@ body {
   z-index: 1;
   padding-bottom: 20px;
   box-sizing: content-box;
-  max-width: 960px;
+  width: 960px;
   margin-left: 100px;
 }
 
@@ -1640,4 +1645,130 @@ body {
   padding: 40px 100px 40px 40px;
   display: flex;
   flex-direction: column;
+}
+
+.greyBoxIcons {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  font-weight: 300;
+  align-content: center;
+  margin-left: 130px;
+}
+
+.greyBoxOneIcon {
+  display: inline-block;
+  align-content: center;
+  margin-right: 80px;
+}
+
+.greyBoxIcons img{
+  width: 50px;
+  height: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+@media (max-width: 600px) {
+  .greyBoxIcons {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .greyBoxOneIcon {
+    display: inline-block;
+  }
+  
+  .greyBoxIcons img{
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 1079px) {
+  .uxBoxHeader {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    padding: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .uxBoxHeaderTitle {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  
+  .uxBoxHeaderBig {
+    font-size: 0.8rem;
+    font-weight: 900;
+  }
+  
+  .uxBoxHeaderSmall {
+    font-size: 0.7rem;
+  }
+  .webBoxheader {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    padding: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .remoteBoxheader {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    padding: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .uiBoxHeader {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    padding: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .researchBoxHeader {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    padding: 20px 50px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .w100 {
+    width: 70%;
+  }
+  .sectionClients .clientImg {
+    margin: 0 16px 70px;
+  }
+  .serviceTestimonial {
+    width: 560px;
+  }
+  .serviceTest {
+    height: 200px;
+  }
 }
