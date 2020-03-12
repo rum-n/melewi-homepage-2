@@ -109,7 +109,7 @@
 }
 @media (max-width: 600px) {
   .sectionAbout {
-    margin-top: 40px;
+    margin-top: 150px;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1215,6 +1215,9 @@ body {
   .headerInsideLeft .textTitle {
     font-size: 32px;
   }
+  .headerInsideLeft {
+    display: none;
+  }
 }
 .headerInsideLeft .textLight {
   max-width: 410px;
@@ -1770,5 +1773,40 @@ body {
   }
   .serviceTest {
     height: 200px;
+  }
+  .serviceHeader {
+    display: none;
+  }
+}
+
+@media (max-width: 560px) {
+  .uxBoxHeader {
+    top: 100px;
+    margin: 0px auto 0px auto;
+    position: relative;
+  }
+  .webBoxheader {
+    top: 100px;
+    margin: 0px auto 0px auto;
+    position: relative;
+  }
+  .remoteBoxheader {
+    top: 100px;
+    margin: 0px auto 0px auto;
+    position: relative;
+  }
+  .uiBoxHeader {
+    top: 100px;
+    margin: 0px auto 0px auto;
+    position: relative;
+  }
+  .researchBoxHeader {
+    top: 100px;
+    margin: 0px auto 0px auto;
+    position: relative;
+  }
+
+  .sectionClients .clientImg {
+    display: none;
   }
 }
