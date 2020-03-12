@@ -1115,9 +1115,6 @@ body {
   .headerInside {
     height: auto;
   }
-  .headerInside .spacerInsideLeft {
-    display: none;
-  }
   .headerInside .headerInside2 {
     width: 700px;
     max-width: 100%;
@@ -1214,9 +1211,6 @@ body {
 @media (max-width: 560px) {
   .headerInsideLeft .textTitle {
     font-size: 32px;
-  }
-  .headerInsideLeft {
-    display: none;
   }
 }
 .headerInsideLeft .textLight {
@@ -1770,6 +1764,7 @@ body {
   }
   .serviceTestimonial {
     width: 560px;
+    margin: auto auto auto 0px;
   }
   .serviceTest {
     height: 200px;
@@ -1807,6 +1802,9 @@ body {
   }
 
   .sectionClients .clientImg {
+    display: none;
+  }
+  .serviceImg {
     display: none;
   }
 }
