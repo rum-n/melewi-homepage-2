@@ -171,7 +171,7 @@
   background: #f7f7f7;
   padding: 80px 16px;
   max-width: 1140px;
-  margin: 0 auto 90px auto;
+  margin: auto;
 }
 .center {
   text-align: center;
@@ -1074,9 +1074,7 @@ body {
 .topBar .headerLogo {
   height: 32px;
 }
-.topBar .headerRight {
-  padding-right: 20px;
-}
+
 @media (max-width: 300px) {
   .topBar .headerRight {
     display: none;
@@ -1776,28 +1774,28 @@ body {
 
 @media (max-width: 560px) {
   .uxBoxHeader {
-    top: 100px;
-    margin: 0px auto 0px auto;
+    top: 50px;
+    margin: auto;
     position: relative;
   }
   .webBoxheader {
-    top: 100px;
-    margin: 0px auto 0px auto;
+    top: 50px;
+    margin: auto;
     position: relative;
   }
   .remoteBoxheader {
-    top: 100px;
-    margin: 0px auto 0px auto;
+    top: 50px;
+    margin: auto;
     position: relative;
   }
   .uiBoxHeader {
-    top: 100px;
-    margin: 0px auto 0px auto;
+    top: 50px;
+    margin: auto;
     position: relative;
   }
   .researchBoxHeader {
-    top: 100px;
-    margin: 0px auto 0px auto;
+    top: 50px;
+    margin: auto;
     position: relative;
   }
 
