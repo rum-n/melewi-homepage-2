@@ -55,8 +55,17 @@
 .rel {
   position: relative;
 }
+.w110 {
+  width: 100%;
+}
+.w120 {
+  width: 120%;
+}
 .w100 {
   width: 90%;
+}
+.w50 {
+  width: 50%;
 }
 .safari .topClipper {
   overflow: auto;
@@ -172,6 +181,7 @@
   padding: 80px 16px;
   max-width: 1140px;
   margin: auto;
+  margin-bottom: 50px;
 }
 .center {
   text-align: center;
@@ -1805,4 +1815,10 @@ body {
   .serviceImg {
     display: none;
   }
+}
+
+.iphone {
+  width: 150px!important;
+  margin-top: 100px;
+  /* margin-left: 350px; */
 }
