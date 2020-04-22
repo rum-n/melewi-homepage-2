@@ -1,4 +1,5 @@
 (function() {
+    M.AutoInit();
     var ua = navigator.userAgent;
     if (ua.match(/^((?!chrome|android).)*safari/i))
     {

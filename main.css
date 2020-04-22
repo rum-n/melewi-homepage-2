@@ -117,7 +117,7 @@
 .sectionAbout {
   margin-top: 60px;
   padding-bottom: 90px;
-  z-index: -2;
+  /* z-index: -2; */
 }
 @media (max-width: 600px) {
   .sectionAbout {
@@ -1880,4 +1880,28 @@ body {
   width: 150px!important;
   margin-top: 100px;
   /* margin-left: 350px; */
+}
+
+/* FAQ SECTION */
+
+.faq {
+  margin-left: 150px;
+}
+
+.greybox-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.collapsible-header, .collapsible-body, .collapsible, ul.collapsible>li 
+{
+  border: 0!important;
+  box-shadow: none!important;
+  background: #fff;
+}
+
+.collapsible-header {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0;
 }
