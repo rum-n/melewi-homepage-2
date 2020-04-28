@@ -103,7 +103,7 @@
                 <div class="headerRight">
                     <div class="nav">
                         <div class="dropdownMenu"><a href='services.html'>Services</a>
-                            <ul class="dropdown">
+                            <ul class="dropdown" id="services">
                                 <li class="dropdownItem"><a href="ux-design.html">UX Design</a></li>
                                 <li class="dropdownItem"><a href="ui-design.html">UI Design</a></li>
                                 <li class="dropdownItem"><a href="ux-research.html">UX Research</a></li>
@@ -112,7 +112,15 @@
                                 <li class="dropdownItem"><a href="remote-work.html">Remote consultancy</a></li>
                             </ul>  
                         </div>
-                        <a href="https://melewi.net/blog">Blog</a>
+                        <div class="dropdownMenu"><a href="https://melewi.net/blog">Blog</a>
+                            <ul class="dropdown" id="blog">
+                                <li class="dropdownItem"><a href="https://melewi.net/blog/category/product/">Product</a></li>
+                                <li class="dropdownItem"><a href="https://melewi.net/blog/category/business/">Business</a></li>
+                                <li class="dropdownItem"><a href="https://melewi.net/blog/category/design/">Design</a></li>
+                                <li class="dropdownItem"><a href="https://melewi.net/blog/category/remote/">Remote</a></li>
+                                <li class="dropdownItem"><a href="https://melewi.net/blog/category/culture/">Culture</a></li>
+                            </ul>
+                        </div>
                         <a href="contact.html">Contact</a>
                     </div>
                 </div>
@@ -128,8 +136,8 @@
                                     <img src="img/ui-header.png" data-aos="fade-left"/>
                                 </div>
                                 <div class="uiBoxHeader" data-aos="fade-right">
-                                    <div class="uxBoxHeaderTitle">UI Design</div>
-                                    <div class="uxBoxHeaderBig">User interface (UI) & visual design</div>
+                                    <h1 class="uxBoxHeaderTitle">UI Design Services</h1>
+                                    <h2 class="uxBoxHeaderBig">User interface (UI) & visual design</h2>
                                     <p class="uxBoxHeaderSmall">Our design blueprint workshop, at the start of each project, helps us determine the right direction for your visual brand and corresponding interface style. <br> Let us create the optimal user interface for your product.</p>
                                 </div>
                             </div>
@@ -151,11 +159,11 @@
                     <div class="greyBoxIcons">
                         <div class="greyBoxOneIcon">
                             <img src="img/UI-wireframe icon.png"/>
-                            <p>UI hi-fidelity mockups <br>in Sketch or Photoshop</p>
+                            <h3 class="greybox-text">UI hi-fidelity mockups <br>in Sketch or Photoshop</h3>
                         </div>
                         <div class="greyBoxOneIcon">
                             <img src="img/UI-GUI icon.png"/>
-                            <p>Visual identity <br>or GUI, if needed</p>
+                            <h3 class="greybox-text">Visual identity <br>or GUI, if needed</h3>
                         </div>
                     </div>
                 </div>
@@ -163,7 +171,7 @@
         </div>
 
         <div class="sectionAbout mw center">
-            <div class="textTitle">Case Study</div>
+            <h2 class="textTitle">Case Study</h2>
             <div class="textLight">
                 200+ apps created. Designed for 50+ countries in 6 continents. Millions of people reached.
             </div>
@@ -177,7 +185,7 @@
                 </div>
                 <div class="spacer f1"></div>
                 <div class="clientText">
-                    <div class="textBig">MeListen: Singapore’s leading online radio app</div>
+                    <h3 class="textBig">MeListen: Singapore’s leading online radio app</h3>
                     <div class="companyWriteup textLight">
                         <p>MeListen (formerly meRadio) is part of the Mediacorp family - the largest media company in Singapore. Being owned by the Singaporean state, we were selected through a public tender, by competing with other agencies, who submitted proposals for the project.</p>
                         <p>We completely redesigned the MeListen web and mobile apps, improving an outdated design to fit the modern online trends and the company’s user audience.</p>
@@ -196,13 +204,10 @@
         <div class="sectionTestimonials">
             <div class="mw">
                 <div class="testimonialsTitle">
-                    <div class="textTitle">
                         <br/><br/>
                         <div class="spacer f1"></div>
                         <div class="spacer f1"></div>
-                        <div>Great Results</div>
-                        <div>= Happy Clients 😍</div>
-                    </div>
+                        <h2 class="textTitle">Great Results<br>= Happy Clients 😍</h2>
                 </div>
                 <div class="testimonialsOval">
                     <svg width="754px" height="798px" viewBox="0 0 1591 1664" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -231,8 +236,8 @@
                             <div class="person flexbox textLight">
                                 <img src="img/gideonsimons.png" />
                                 <div class="f1">
-                                    <div class="b">Gideon Simons</div>
-                                    <div>UX Lead</div>
+                                    <h3 class="b">Gideon Simons</h3>
+                                    <p>UX Lead</p>
                                 </div>
                             </div>
                         </div>
@@ -246,9 +251,8 @@
                             <div class="person flexbox textLight">
                                 <img src="img/DanielLee.png" alt="Daniel Lee McDonalds" />
                                 <div class="f1">
-                                    <div class="b">Daniel Lee</div>
-                                    <div class="textLight">Senior Director</div>
-                                    <div class="textLight">(Digital Experience Lead)</div>
+                                    <h3 class="b">Daniel Lee</h3>
+                                    <p class="textLight">Senior Director<br>(Digital Experience Lead)</p>
                                 </div>
                             </div>
                         </div>
@@ -259,18 +263,18 @@
         </div>
 
         <div class="mw">
-            <h1 class="textTitle">Frequently Asked <br>Questions 🤔</h1>
+            <h2 class="textTitle">Frequently Asked <br>Questions 🤔</h2>
             <ul class="collapsible">
                 <li>
-                    <h2 class="collapsible-header">What is UI design?</h2>
+                    <h3 class="collapsible-header">What is UI design?</h3>
                     <div class="collapsible-body"><span>UI stands for user interface. This means everything your users will see when they open your website, web app or mobile app. Colors, shapes, fonts, visual elements, and the overall style are things that fall into the category of UI.</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">What is the difference between UI design and UX design?</div>
+                    <h3 class="collapsible-header">What is the difference between UI design and UX design?</h3>
                     <div class="collapsible-body"><span>Simply put, UX design deals with how the website, web or mobile app is structured and the UI design determines how it looks like.</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">Do I need both UX & UI design?</div>
+                    <h3 class="collapsible-header">Do I need both UX & UI design?</h3>
                     <div class="collapsible-body"><span>It really depends what your goals are. If you're creating a product from scratch it's imperative that you do both UX & UI design. If you already have an existing product and you're happy with your user flows, but your looks are outdated, you can only do a UI redesign to keep things up-to-date. As a general rule, designs become outdated every 4-5 years.</span></div>
                 </li>
                 <li>
@@ -278,7 +282,7 @@
                     <div class="collapsible-body"><span>As with UX design, the UI design process consists of an initial meeting to get our team alligned with what needs to be designed. When coming up with designs for your user interface, it's important for us to know who your users are and what do they expect to see. We consider your branding and the emotions you need to convey in your users when they open your product. After we have all that figured, we start creating our designs, showing you our progress during frequent client review meetings.</span></div>
                 </li>
                 <li>
-                    <div class="collapsible-header">Why is UI important?</div>
+                    <h3 class="collapsible-header">Why is UI important?</h3>
                     <div class="collapsible-body"><span>Since the dawn of mankind, people have appreciated good aestethics. Perceptions have changed and will continue to change, but there will always be a dinstinction between good and bad design, and people will always favor things that contain the former.</span></div>
                 </li>
             </ul>
@@ -316,7 +320,7 @@
                     <div class="spacerRight"></div>
                 </div>
                 <div class="bottomText center" id="bottomText">
-                    <div class="textTitle" data-aos="fade-up" data-aos-anchor="#bottomText">Want a product your customers will love?</div>
+                    <h2 class="textTitle" data-aos="fade-up" data-aos-anchor="#bottomText">Want a product your customers will love?</h2>
                     <div class="text b5" data-aos="fade-up" data-aos-anchor="#bottomText">
                         <div data-aos="fade-up" data-aos-delay="200" data-aos-anchor="#bottomText">
                             <div>We’ve worked with McDonald’s, Visa, Samsung, and 200+ more businesses of all shapes and sizes in over 50 countries.</div>
