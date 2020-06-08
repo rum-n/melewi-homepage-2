@@ -1535,6 +1535,12 @@ body {
   border-radius: 2%;
 }
 
+.serviceCard h3{
+  font-size: 1.17em;
+  font-weight: 600;
+  margin:0px;
+}
+
 .serviceCard:hover {
   background: #FF517B;
   background-image: linear-gradient(90deg, #FF517B 0%, #FF7023 100%);
@@ -1650,6 +1656,42 @@ body {
 .remoteBoxheader {
   background: #2F2078;
   background-image: linear-gradient(90deg, #2F2078 0%, #3C6DC1 100%);
+  color: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  padding: 20px 40px 40px 40px;
+}
+
+.brandingBoxHeader {
+  background: rgb(200, 61, 26);
+  background-image: linear-gradient(90deg, rgb(120, 32, 113) 0%, rgb(178, 60, 193) 100%);
+  color: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  padding: 20px 40px 40px 40px;
+}
+
+.contentBoxHeader {
+  background: rgb(200, 61, 26);
+  background-image: linear-gradient(90deg, rgb(32, 110, 120) 0%, rgb(60, 193, 171) 100%);
+  color: white;
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  padding: 20px 40px 40px 40px;
+}
+
+.prototypingBoxHeader {
+  background: rgb(200, 61, 26);
+  background-image: linear-gradient(90deg, rgb(32, 85, 120) 0%, rgb(60, 96, 193) 100%);
   color: white;
   width: 600px;
   height: 300px;
@@ -1806,6 +1848,14 @@ body {
     top: 400px;
     padding: 20px 50px 20px 20px;
   }
+  .brandingBoxHeader {
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    right: 0px;
+    top: 400px;
+    padding: 20px 50px 20px 20px;
+  }
   .uiBoxHeader {
     width: 400px;
     height: 200px;
@@ -1854,6 +1904,11 @@ body {
     position: relative;
   }
   .remoteBoxheader {
+    top: 50px;
+    margin: auto;
+    position: relative;
+  }
+  .brandingBoxHeader {
     top: 50px;
     margin: auto;
     position: relative;
