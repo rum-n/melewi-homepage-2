@@ -1291,7 +1291,7 @@ body {
   color: inherit;
 }
 .pageContact .sectionContact {
-  padding-top: 140px;
+  /* padding-top: 140px; */
   align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
@@ -1809,7 +1809,14 @@ body {
 }
 
 @media (max-width: 1079px) {
-  .uxBoxHeader {
+  .uxBoxHeader,  
+  .webBoxheader,
+  .remoteBoxheader,
+  .brandingBoxHeader,
+  .uiBoxHeader,
+  .researchBoxHeader,
+  .prototypingBoxHeader,
+  .contentBoxHeader{
     width: 400px;
     height: 200px;
     position: absolute;
@@ -1831,49 +1838,7 @@ body {
   .uxBoxHeaderSmall {
     font-size: 0.7rem;
   }
-  .webBoxheader {
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    right: 0px;
-    top: 400px;
-    padding: 20px 50px 20px 20px;
-  }
-  
-  .remoteBoxheader {
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    right: 0px;
-    top: 400px;
-    padding: 20px 50px 20px 20px;
-  }
-  .brandingBoxHeader {
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    right: 0px;
-    top: 400px;
-    padding: 20px 50px 20px 20px;
-  }
-  .uiBoxHeader {
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    right: 0px;
-    top: 400px;
-    padding: 20px 50px 20px 20px;
-    display: flex;
-  }
-  
-  .researchBoxHeader {
-    width: 400px;
-    height: 200px;
-    position: absolute;
-    right: 0px;
-    top: 400px;
-    padding: 20px 50px 20px 20px;
-  }
+
   .w100 {
     width: 70%;
   }
@@ -1893,35 +1858,23 @@ body {
 }
 
 @media (max-width: 560px) {
-  .uxBoxHeader {
-    top: 50px;
-    margin: auto;
-    position: relative;
+  h1 {
+    margin-top: 0!important;
   }
-  .webBoxheader {
+
+  .uxBoxHeader,
+  .webBoxheader,
+  .remoteBoxheader,
+  .brandingBoxHeader,
+  .uiBoxHeader,
+  .researchBoxHeader,
+  .prototypingBoxHeader,
+  .contentBoxHeader{
+    width: 100%;
     top: 50px;
     margin: auto;
     position: relative;
-  }
-  .remoteBoxheader {
-    top: 50px;
-    margin: auto;
-    position: relative;
-  }
-  .brandingBoxHeader {
-    top: 50px;
-    margin: auto;
-    position: relative;
-  }
-  .uiBoxHeader {
-    top: 50px;
-    margin: auto;
-    position: relative;
-  }
-  .researchBoxHeader {
-    top: 50px;
-    margin: auto;
-    position: relative;
+    padding: 20px;
   }
 
   .sectionClients .clientImg {
@@ -1966,4 +1919,49 @@ body {
   font-weight: bold;
   margin: 0;
   padding: 0;
+}
+
+
+/* HOMEPAGE FEATURES */
+
+.homepage-service-card {
+  width: 31%;
+  padding-left: 20px;
+  margin: 40px 20px 30px 0;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 560px) {
+  .homepage-service-card {
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.homepage-service-card img{
+  width: 100%;
+}
+
+.homepage-service-card a{
+  color: #E94E73;
+  font-weight: 500;
+}
+
+.homepage-service-card a:hover{
+  color: #ce2048;
+  font-weight: 500;
+}
+
+.homepage-services-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: auto;
 }
